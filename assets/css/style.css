@@ -1,0 +1,23 @@
+#header {
+    background-color: black;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+#pages {
+	float:left;
+	background-color: black;
+	color: blue;
+	text-align: center;
+	height: 1%;
+	vertical-align: middle;
+	width : 20%;
+	padding: 1% 0% 1% 0%;
+	margin-bottom: 1%;
+	text-decoration: none;
+	font-family: monospace;
+	font-size: 150%;
+}

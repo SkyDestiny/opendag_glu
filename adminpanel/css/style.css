@@ -1,0 +1,34 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#overview {
+    width: 25%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  width:6%;
+
+}
+
+#overview {
+    width: 23%;
+}
+
+#title {
+    width: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: #ff9333;
+}
+
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

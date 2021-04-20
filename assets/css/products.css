@@ -1,0 +1,61 @@
+#my-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.my-eventCard{
+    float: left;
+    height: 400px;
+    width: 300px;
+    background: white;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.my-eventCardPicture{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.my-eventCardButton{
+    width: 250px;
+    height: 170px;
+    background: white;
+    border-radius: 10px;
+    color: black;
+}
+
+.my-eventCardBtn {
+    cursor: pointer;
+    border-radius: 50px;
+    border-style: none;
+    border: solid 1px;
+    border-color: black;
+    display: flex;
+    transition-duration: 0.3s;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.my-eventCardBtn:hover {
+    border: solid 1px black;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+    border-radius: 10px;
+}

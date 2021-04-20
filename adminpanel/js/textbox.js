@@ -1,0 +1,1 @@
+textBox1.Location = new Point(e.X, e.Y);

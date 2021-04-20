@@ -1,0 +1,9 @@
+.blokie{
+	display: grid;
+	grid-gap: 3em;
+	grid-template-columns: repeat(auto-fit, mimax(200px, 1fr));
+}
+
+.foto{
+	object-fit: contain;
+}
